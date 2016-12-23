@@ -11,8 +11,7 @@ White to move.
 
 <!--more-->
 
-    49. Rc8+ Kh7
-    50. Qh6+
+| 49. | Rc8+ | Kh7 |
+| 50. | Qh6+ |     |
 
-More at [chessgames](http://www.chessgames.com/perl/chessgame?gid=1848607),
-[lichess](https://en.lichess.org/training/102787).
+More at [chessgames](http://www.chessgames.com/perl/chessgame?gid=1848607), [lichess](https://en.lichess.org/training/102787).

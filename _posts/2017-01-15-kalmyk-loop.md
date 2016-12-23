@@ -9,9 +9,7 @@ categories: knots
 
 <!--more-->
 
-A very practical exploding fixed loop. The name suggests that it comes from Kalmykia, the 
-steppes between the Don and Volga rivers. It's probably ancient, but for some reason 
-remains virtually unknown in the West.
+A very practical exploding fixed loop. The name suggests that it comes from Kalmykia, the steppes between the Don and Volga rivers. It's probably ancient, but for some reason remains virtually unknown in the West.
     
 ![Kalmyk loop loosened]({{ site.url }}/images/kalmyk-loop-2.jpg)
 

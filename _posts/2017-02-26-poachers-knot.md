@@ -9,7 +9,6 @@ categories: knots
 
 <!--more-->
 
-Poacher's knot (ABoK #409) is a sliding loop made by tying strangle knot 
-around the standing part.
+Poacher's knot (ABoK #409) is a sliding loop made by tying strangle knot around the standing part.
  
 ![Poacher's knot loosened]({{ site.url }}/images/poachers-knot-2.jpg)

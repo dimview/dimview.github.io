@@ -4,6 +4,8 @@ title: "Under Construction"
 date:   2016-12-14 00:00:00 -0500
 ---
 
+![Mightier than a sword]({{ site.url }}/images/feather.jpg)
+
 In 2017 I plan to publish here one blog post per week, starting on January 1st.
 
 <!--more-->

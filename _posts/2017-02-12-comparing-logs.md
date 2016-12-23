@@ -5,13 +5,13 @@ date:   2017-02-12 00:00:00 -0500
 categories: math
 ---
 
+![Firewood]({{ site.url }}/images/firewood.jpg)
+
 What is greater, $$log_2 3$$ or $$log_3 5$$?
 
 <!--more-->
 
-The trick here is to compare both to $$\frac{3}{2}$$ rather than to each other. Start
-by comparing $$log_2 3$$ to $$\frac{3}{2}$$. Function $$f(x)=2^x$$ is monotonic so we 
-can apply it to both sides to get
+The trick here is to compare both to $$\frac{3}{2}$$ rather than to each other. Start by comparing $$log_2 3$$ to $$\frac{3}{2}$$. Function $$f(x)=2^x$$ is monotonic so we  can apply it to both sides to get
 
 $$2^{log_2 3} \Leftrightarrow 2^{\frac{3}{2}}$$
 
