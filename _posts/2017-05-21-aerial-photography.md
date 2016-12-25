@@ -15,6 +15,6 @@ Complication: only use technology available in 1950's. Photosensors and basic el
 
 <!--more-->
 
-One possible solution: place a semitransparent mirror between the lens and the film to project image on photosensor. Cover photosensor with a grating that consists of equidistant opaque lines perpendicular to the direction of travel. Measure frequency ofthe signal from photosensor and use that to control the motor.
+One possible solution: place a semitransparent mirror between the lens and the film to project image on photosensor. Cover photosensor with a grating that consists of equidistant opaque lines perpendicular to the direction of travel. Measure frequency of the signal from photosensor and use that to control the motor.
 
 Source: probably dz.livejournal.com, but can't find the direct link.
