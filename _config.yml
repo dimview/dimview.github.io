@@ -33,4 +33,4 @@ exclude:
   - Gemfile.lock
 
 excerpt_separator: <!--more-->
-future: false
+future: true
