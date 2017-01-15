@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Carlsen-Karjakin 2016, Game 16"
-date:   2017-03-12 00:00:00 -0500
+date:   2017-03-12 00:00:00 -0000
 categories: chess
 ---
 

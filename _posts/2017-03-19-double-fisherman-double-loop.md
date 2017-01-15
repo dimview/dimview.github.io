@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Double Fisherman's Double Loop"
-date:   2017-03-19 00:00:00 -0500
+date:   2017-03-19 00:00:00 -0000
 categories: knots
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparing Logs"
-date:   2017-02-12 00:00:00 -0500
+date:   2017-02-12 00:00:00 -0000
 categories: math
 ---
 

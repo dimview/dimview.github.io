@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adjustable Grip Hitch"
-date:   2017-04-09 00:00:00 -0500
+date:   2017-04-09 00:00:00 -0000
 categories: knots
 ---
 

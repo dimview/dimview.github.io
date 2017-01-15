@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Poacher's Knot"
-date:   2017-02-26 00:00:00 -0500
+date:   2017-02-26 00:00:00 -0000
 categories: knots
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estimating Blast Yield"
-date:   2017-06-11 00:00:00 -0500
+date:   2017-06-11 00:00:00 -0000
 categories: physics
 ---
 

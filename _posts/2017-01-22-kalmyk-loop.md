@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kalmyk Loop"
-date:   2017-01-22 00:00:00 -0500
+date:   2017-01-22 00:00:00 -0000
 categories: knots
 ---
 
