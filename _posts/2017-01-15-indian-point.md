@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estimating BDBA Probability"
-date:   2017-01-15 00:00:00 -0500
+date:   2017-01-15 00:00:00 -0000
 categories: math
 ---
 
