@@ -33,4 +33,6 @@ exclude:
   - Gemfile.lock
 
 excerpt_separator: <!--more-->
+
+# true only for offline testing
 future: false
