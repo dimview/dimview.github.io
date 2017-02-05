@@ -14,7 +14,6 @@ Come up with a system that controls the rate of advance so that the film moves a
 Complication: only use technology available in 1950's. Photosensors and basic electronics is ok, but no CCD and no computers.
 
 <!--more-->
-
 One possible solution: place a semitransparent mirror between the lens and the film to project image on photosensor. Cover photosensor with a grating that consists of equidistant opaque lines perpendicular to the direction of travel. Measure frequency of the signal from photosensor and use that to control the motor.
 
 Source: probably dz.livejournal.com, but can't find the direct link.
