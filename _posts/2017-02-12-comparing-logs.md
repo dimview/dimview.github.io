@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparing Logs"
-date:   2017-02-12 00:00:00 -0000
+date:   2017-02-12 00:00:01 -0000
 categories: math
 ---
 
@@ -46,4 +46,3 @@ Finally
 $$log_2 3 > \frac{3}{2} > log_3 5$$
 
 Source: problem 17 in [https://arxiv.org/pdf/1110.1556v2.pdf](https://arxiv.org/pdf/1110.1556v2.pdf)
-
