@@ -12,11 +12,11 @@ Knowing that some implementations of pseudorandom number generators are better t
 ![Pseudorandom]({{ site.url }}/images/pseudo-random.png){:height="50%" width="50%"}![Halton]({{ site.url }}/images/halton.png){:height="50%" width="50%"}
 
 <!--more-->
-The first picture is from <tt>std::default_random_engine</tt> in GCC. You can see that points tend to form clumps and leave some empty spaces. This is normal, the distribution is uniform only in the limit.
+The first picture is from <tt>std::default_random_engine</tt> and <tt>std::uniform_real_distribution</tt> in GCC. The points tend to form clumps and leave some empty spaces. This is normal, the distribution is uniform only in the limit.
 
 The second picture is [Halton sequence](https://en.wikipedia.org/wiki/Halton_sequence). The points there are distributed more evenly, with no clumps and no large empty areas. They are not independent, though. Such sequences are called *quasi-random* or *subrandom*. [Sobol sequence](https://en.wikipedia.org/wiki/Sobol_sequence) is used more often, but in this example we'll stick with Halton because it's simpler.
 
-Let's see how the error changes are we get more points.
+Let's get more points:
 
     #include <iostream>
     #include <random>
@@ -62,8 +62,7 @@ Let's see how the error changes are we get more points.
       }
     }
 
-Results:
+In this case it's clear that quasi-random sequence works better:
 
 ![Error vs. Sample Size]({{ site.url }}/images/quasi-random.png)
 
-In this case it's clear that quasi-random sequence works better.
