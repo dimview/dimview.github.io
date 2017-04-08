@@ -35,4 +35,4 @@ exclude:
 excerpt_separator: <!--more-->
 
 # true only for offline testing
-future: true
+future: false
