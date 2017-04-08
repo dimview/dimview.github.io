@@ -9,6 +9,6 @@ categories: knots
 
 <!--more-->
 
-The [adjustable grip hitch](https://en.wikipedia.org/wiki/Adjustable_grip_hits) holds under the load, but remove the tension and it can be easily adjusted.
+The [adjustable grip hitch](https://en.wikipedia.org/wiki/Adjustable_grip_hitch) holds under the load, but remove the tension and it can be easily adjusted.
  
 ![Adjustable grip hitch loosened]({{ site.url }}/images/adjustable-grip-hitch-2.jpg)
