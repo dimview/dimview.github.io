@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="50,10 502,50 460,502 10,460 50,10" stroke-dasharray="5,5" stroke-width="3" stroke="black" fill="none"/>
+  <circle cx="276" cy="30" r="5" fill="black"/>      <text x="269" y="20" font-size="24">A</text>
+  <circle cx="472.6" cy="366.4" r="5" fill="black"/> <text x="480" y="376" font-size="24">B</text>
+  <circle cx="325" cy="489.4" r="5" fill="black"/>   <text x="316" y="480" font-size="24">C</text>
+  <circle cx="34" cy="190" r="5" fill="black"/>      <text x="10" y="195" font-size="24">D</text>
+  <polyline points="190,240 201,244 197,254" stroke="black" stroke-width="3" fill="none"/>
+  <polyline points="472.6,366.4 34,190" stroke="black" stroke-width="3"/>
+  <polyline points="276,30 82.5,511" stroke="black" stroke-width="3"/>
+</svg>
