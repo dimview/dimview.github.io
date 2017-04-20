@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="512" height="256" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="180,20 485,236 20,236 180,20" stroke-width="3" stroke="black" fill="none"/>
+  <polyline points="20,236 222,123 485,236 " stroke-width="3" stroke="black" fill="none"/>
+  <polyline points="222,123 282.6,89.1 " stroke-width="3" stroke-dasharray="5,5" stroke="black" fill="none"/>
+  <text x="1" y="244" font-size="24">A</text>
+  <text x="172" y="18" font-size="24">B</text>
+  <text x="208" y="120" font-size="24">D</text>
+  <text x="490" y="244" font-size="24">C</text>
+  <text x="285" y="90" font-size="24">E</text>
+</svg>
