@@ -7,4 +7,6 @@ categories: engineering
 
 ![Periscope]({{ site.url }}/images/periscope.jpg)
 
+<!--more-->
+
 Shooting with DSLR upside down lets you get a little higher line of sight, sometimes just enough to see over people or obstacles in front of you. 
