@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Periscope"
-date:   2017-05-07 00:00:00 -0000
+date:   2017-07-02 00:00:00 -0000
 categories: engineering
 ---
 

@@ -13,15 +13,17 @@ And the next element of the sequence is...
 
 ...1113213211.
 
-Just read 13112221 as "one 1, one 3, two 1s, three 2s, one 1". 
-
-This is look-and-say sequence ([A005150](https://oeis.org/A005150) in the OEIS).
+Just read 13112221 as "one 1, one 3, two 1s, three 2s, one 1".  This is look-and-say sequence 
+([A005150](https://oeis.org/A005150) in the OEIS).
 
 Each next number is about 30% longer. More precisely, if $$L_i$$ denotes the number of digits of the $$i$$-th member of the sequence, then
 
 $$\lim_{n\rightarrow\infty}\frac{L_{n+1}}{L_n} = \lambda \approx 1.303577$$
 
-which is the only positive rational root of [Conway's polynomial](https://oeis.org/A137275)
+One can enumerate 92 possible subsequences, construct a transition matrix, interpret it is a 
+recurrence relation for the length of terms in the look-and-say sequence, recall that limiting 
+ratio of terms in the sequence is equal to the spectral radius of the transition matrix,
+and finally find $$\lambda$$, the only positive rational root of [Conway's polynomial](https://oeis.org/A137275)
 
 $$x^{71}\\
 -x^{69}-2x^{68}-x^{67}+2x^{66}+2x^{65}+x^{64}-x^{63}-x^{62}-x^{61}-x^{60}\\
@@ -32,10 +34,7 @@ $$x^{71}\\
 +3x^{19}-4x^{18}-10x^{17}-7x^{16}+12x^{15}+7x^{14}+2x^{13}-12x^{12}-4x^{11}-2x^{10}\\
 +5x^{9}+x^{7}-7x^{6}+7x^{5}-4x^{4}+12x^{3}-6x^{2}+3x-6$$\\
 
-From that, one can enumerate 92 possible subsequences, construct a transition matrix, interpret it is a 
-recurrence relation for the length of terms in the look-and-say sequence, recall that limiting 
-ratio of terms in the sequence is equal to the spectral radius of the transition matrix, and finally use
-a CAS like wxMaxima to find $$\lambda$$:
+using a computer algebra system like wxMaxima:
 
     float(realroots(x^71
     -x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-x^61-x^60
