@@ -5,7 +5,7 @@ date:   2017-07-30 00:00:00 -0000
 categories: math
 ---
 
-![kdpv]({{ site.url }}/images/kdpv.jpg)
+![kdpv]({{ site.url }}/images/elevator-bank.svg){:height="50%" width="50%"}
 
 You are waiting for an elevator. There are four elevators, equally spaced along a wall. The third elevator is out of order. Where would you stand, and why?
 <!--more-->
