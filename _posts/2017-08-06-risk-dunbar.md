@@ -11,6 +11,4 @@ Teaser.
 
 <!--more-->
 
-Contents
-
-Source: rumor
+A typical human can keep track of about 150 people (the [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar's_number))
