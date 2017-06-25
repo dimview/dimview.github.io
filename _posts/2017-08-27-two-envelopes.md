@@ -10,7 +10,6 @@ You are given two envelopes. Each envelope contains some money. You can pick one
 
 Can you do better than just picking an envelope at random and keeping it?
 <!--more-->
-
 You pick an amount (any amount greater than zero will work). If the envelope you opened contains less than that, you switch.
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Two_envelopes_problem#Randomized_solutions)
