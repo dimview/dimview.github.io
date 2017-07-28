@@ -89,7 +89,7 @@ sprintf("m=%d, d=%d, fp=%f (should be <%f), tp=%f (should be >%f)",
          m,    d,    b0[1], alpha / 2,      b1[1], 1 - beta)
 ```
 
-It builds two Pascal triangles trimmed at *&#177;D*, one for the null hypothesis and another for the alternative hypothesis. It starts with low values of *N* and *D* and keeps increasing them until both &*&alpha;* and *&beta;* are met.
+It builds two Pascal triangles trimmed at *&#177;D*, one for the null hypothesis and another for the alternative hypothesis. It starts with low values of *N* and *D* and keeps increasing them until both *&alpha;* and *&beta;* are met.
 
 Here's a smaller triangle, for *N=5* and *D=3*. Each row is vector of probabiities, with index ranging from *1* (that corresponds to *-D*) to *2D+1* (that corresponds to *+D*). First and last elements of the vector are probabilities of the difference reaching *&#177;D* within *N* observations.
 
