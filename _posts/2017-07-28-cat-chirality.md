@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "Determining Cat Chirality"
-date:   2017-12-03 00:00:00 -0000
+date:   2017-07-28 05:55:55 -0000
 categories: math
 ---
 
-![Chirality example]({{ site.url }}/images/chirality.jpg)
+![Clockwise]({{ site.url }}/images/clockwise.jpg){:height="40%" width="40%"} ![Counterclockwise]({{ site.url }}/images/counterclockwise.jpg){:height="40%" width="40%"}
 
-Does your cat prefer to sleep like this &#10227; (clockwise), like this &#10226; (counterclockwise), or has no preference? Let's science it out:
+Does your cat prefer to sleep like this &#10227; (clockwise), like this &#10226; (counterclockwise), or has no preference? Let's figure it out:
 
 ![Chirality chart]({{ site.url }}/images/chirality.svg)
 
-* Print this chart
+* Print [this chart]({{ site.url }}/images/chirality.svg)
 * Put a pin or a dot in the lower left corner (at coordinates (0,0))
 * When you observe &#10227;, move the pin right by one
 * When you observe &#10226;, move the pin up by one
@@ -20,9 +20,9 @@ Does your cat prefer to sleep like this &#10227; (clockwise), like this &#10226;
 * If the pin reaches the yellow line, stop the test. No preference detected
 
 <!--more-->
-We'll be using ancient but oftentimes still useful *null hypothesis significance testing*.
+We're using ancient but oftentimes still useful *null hypothesis significance testing*.
 
-**Null hypothesis** is that the cat does not care, and curls in either direction with probability *p<sub>0</sub>*.
+**Null hypothesis** is that the cat does not care, and curls in either direction with probability *p<sub>0</sub>=0.5*.
 
 **Alternative hypothesis** is that the cat *does* have a preference, and probability of curling in one particular direction is *p<sub>1</sub>* or less.
 
@@ -40,7 +40,7 @@ We start at (0,0), move right by one if &#10227;, move left by one if &#10226;, 
 
 The fixed-size test requires us to wait until all *N* observations are collected before drawing a conclusion. Even if we observe 100 consecutive &#10227; and no &#10226;, we still have to keep going, otherwise the result won't have the nice statistical properties.
 
-A better approach is to use **sequential test with early stopping**, similar to one [described by Evan Miller](http://www.evanmiller.org/sequential-ab-testing.html). We don't have a control so can't use that calculator or tables directly, but it's not difficult to [do it from scratch in R]({{ site.url }}/code/chirality.R), and run some Monte-Carlo simulations to confirm that the math works out.
+A better approach is to use **sequential test with early stopping**, similar to one [described by Evan Miller](http://www.evanmiller.org/sequential-ab-testing.html). We don't have a control so can't use that calculator or tables directly, but it's not difficult to do it from scratch in R, and while we're at it, [run some Monte-Carlo simulations]({{ site.url }}/code/chirality.R) to confirm that the math works out.
 
 We will need two threshold values *M* and *D*. For *&alpha;=0.05*, *&beta;=0.2*, *p<sub>0</sub>=0.5*, and *p<sub>1</sub>=0.4* threshold values are *M=90* and *D=33*, and thresholds look like this:
 
@@ -91,19 +91,24 @@ sprintf("m=%d, d=%d, fp=%f (should be <%f), tp=%f (should be >%f)",
 
 It builds two Pascal triangles trimmed at &#177;D, one for the null hypothesis and another for the alternative hypothesis. It starts with low values of N and D and keeps increasing them until both &alpha; and &beta; are met.
 
-Here's a smaller triangle, for N=5 and D=3. Each row is vector of probabiities, with index ranging from 1 (that corresponds to -D) to 2*D+1 (that corresponds to +D). First and last elements of the vector are probabilities of the difference reaching &#177;D within N observations.
+Here's a smaller triangle, for *N=5* and *D=3*. Each row is vector of probabiities, with index ranging from *1* (that corresponds to *-D*) to *2*D+1* (that corresponds to *+D*). First and last elements of the vector are probabilities of the difference reaching *&#177;D* within *N* observations.
 
-|  N  |    1  |     |   2  |     |    3   |     |    4   |     |    5   |     |    6   |     |   7 |
+| *N* |  *1*  |     |  *2* |     |   *3*  |     |   *4*  |     |   *5*  |     |   *6*  |     | *7* |
 |:---:|:-----:|:---:|:----:|:---:|:------:|:---:|:------:|:---:|:------:|:---:|:------:|:---:|:---:|
-|  0  |       |     |      |     |        |     |  1     |     |        |     |        |     |     |
+| *0* |       |     |      |     |        |     |  1     |     |        |     |        |     |     |
 |     |       |     |      |     |        |&#8601;|      | &#8600;|     |     |        |     |     |
-|  1  |       |     |      |     |    .5  |     |        |     |   .5   |     |        |     |     |
+| *1* |       |     |      |     |    .5  |     |        |     |   .5   |     |        |     |     |
 |     |       |     |      |&#8601;|      |&#8600;|      |&#8601;|      |&#8600;|      |     |     |
-|  2  |       |     | .25  |     |        |     | .5     |     |        |     |  .25   |     |     |
+| *2* |       |     | .25  |     |        |     | .5     |     |        |     |  .25   |     |     |
 |     |       |&#8601;|  |&#8600;|        |&#8601;|      |&#8600;|      |&#8601;|      |&#8600;|   |
-|  3  | .125  |     |      |     |.375    |     |        |     |.375    |     |        |     |.125 |
+| *3* | .125  |     |      |     |.375    |     |        |     |.375    |     |        |     |.125 |
 |     |&#8595;|     |      |&#8601;|      |&#8600;|      |&#8601;|      |&#8600;|      |   |&#8595;|
-|  4  | .125  |     |.1875 |     |        |     |.375    |     |        |     |.1875   |     |.125 |
+| *4* | .125  |     |.1875 |     |        |     |.375    |     |        |     |.1875   |     |.125 |
 |     |&#8595;|&#8601;|    |&#8600;|      |&#8601;|      |&#8600;|      |&#8601;|  |&#8600;|&#8595;|
-|  5  | .21875|     |      |     |.28125  |     |        |     | .28125 |     |        |    |.21875|
+| *5* | .21875|     |      |     |.28125  |     |        |     | .28125 |     |        |    |.21875|
 
+This is how my test chart looks like today (July 28th, 2017):
+
+![Clockwise]({{ site.url }}/images/chirality_progress.jpg)
+
+More data is required.

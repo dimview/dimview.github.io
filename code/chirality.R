@@ -130,6 +130,9 @@ lines(x=c(fixed_obs-cutoff,cutoff), y=c(cutoff,fixed_obs-cutoff), col="orange")
 text(0.75*250, 0.2*250, 'Clockwise wins', col='darkgreen')
 text(0.3*250, 0.7*250, 'Counterclockwise wins', col='red')
 text(0.45*250, 0.45*250, 'Draw', col='orange')
+ex_cw <- rbinom(fixed_obs, 1, 2/3)
+ex_ccw <- 1 - ex_cw
+points(cumsum(ex_cw),cumsum(ex_ccw),pch=20,cex=.5,col='blue')
 dev.off()
 
 #3#################################################################################################
@@ -228,6 +231,10 @@ lines(c((n-d)/2+1,(n-d)/2+1,(n+d)/2-1), c((n+d)/2-1,(n-d)/2+1,(n-d)/2+1), col="o
 text(90, 20, 'Clockwise wins', col='darkgreen')
 text(40, 120, 'Counterclockwise wins', col='red')
 text(106,100, 'Draw', col='orange')
+es_cs_cw <- cumsum(ex_cw)
+es_cs_ccw <- cumsum(ex_ccw)
+end_pos <- match(d,es_cs_cw-es_cs_ccw)
+points(es_cs_cw[1:end_pos],es_cs_ccw[1:end_pos],pch=20,cex=.5,col='blue')
 dev.off()
 
 ###################################################################################################
@@ -359,4 +366,13 @@ lines(c(qx[q]+1,qx[q]+1,qy[q]-1), c(qy[q]-1,qx[q]+1,qx[q]+1), col="orange")
 text(90, 20, 'Clockwise wins', col='darkgreen')
 text(40, 130, 'Counterclockwise wins', col='red')
 text(126,120, 'Draw', col='orange')
+for (i in 1:fixed_obs) {
+  j <- match(es_cs_cw[i],qy)
+  if (!is.na(j)) {
+    if (es_cs_ccw[i] == qx[j]) {
+      end_pos <- i
+    }
+  }
+}
+points(es_cs_cw[1:end_pos],es_cs_ccw[1:end_pos],pch=20,cex=.5,col='blue')
 dev.off()

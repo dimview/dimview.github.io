@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where to Wait for an Elevator"
-date:   2017-07-30 00:00:00 -0000
+date:   2017-08-06 00:00:00 -0000
 categories: math
 ---
 

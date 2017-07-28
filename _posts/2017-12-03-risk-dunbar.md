@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Risk and Dunbar Number"
-date:   2017-08-06 00:00:00 -0000
+date:   2017-12-03 00:00:00 -0000
 categories: math
 ---
 
