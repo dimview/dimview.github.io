@@ -36,7 +36,7 @@ The simplest approach is to pick a fixed number of observations (in this case *N
 
 Horizontal axis is cumulative number of times we have observed the cat to curl clockwise since the beginning of the test. Vertical axis is similar, but for counterclockwise observations.
 
-We start at (0,0), move right by one if &#10227;, move left by one if &#10226;, and continue this random walk until we hit one of the marked lines that determine the outcome. Blue line shows one example.
+We start at (0,0), move right by one if &#10227;, move up by one if &#10226;, and continue this random walk until we hit one of the marked lines that determine the outcome. Blue line shows one example.
 
 The fixed-size test requires us to wait until all *N* observations are collected before drawing a conclusion. Even if we observe 100 consecutive &#10227; and no &#10226;, we still have to keep going, otherwise the result won't have the nice statistical properties.
 
