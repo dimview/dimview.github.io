@@ -5,7 +5,7 @@ date:   2017-08-15 00:00:00 -0000
 categories: engineering
 ---
 
-<video controls="controls" allowfullscreen="true" loop="true" poster="/images/tz_timelapse.jpg" width="100%" height="100%" border="0">
+<video controls="controls" allowfullscreen="true" loop="true" poster="/images/tz_timelapse.jpg" width="100%" height="100%" preload="none" muted="muted">
   <source src="/images/tz_timelapse.mp4" type="video/mp4">
 </video>
 
