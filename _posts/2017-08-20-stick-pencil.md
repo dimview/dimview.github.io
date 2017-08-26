@@ -5,7 +5,7 @@ date:   2017-08-20 00:00:00 -0000
 categories: physics
 ---
 
-![kdpv]({{ site.url }}/images/kocherga.jpg){:height="50%" width="50%"}
+![Stick+pencil]({{ site.url }}/images/kocherga.jpg){:height="50%" width="50%"}
 
 When would somebody hold the stick like shown, and why?
 
