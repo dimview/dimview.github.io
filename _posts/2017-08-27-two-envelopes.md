@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two Envelopes"
-date:   2017-08-27 00:00:00 -0000
+date:   2017-08-27 00:00:01 -0000
 categories: math
 ---
 ![Two envelopes]({{ site.url }}/images/two-envelopes.svg){:height="50%" width="50%"}
