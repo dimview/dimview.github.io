@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shorter Distance"
-date:   2017-09-10 00:00:00 -0000
+date:   2017-12-03 00:00:00 -0000
 categories: math
 ---
 
