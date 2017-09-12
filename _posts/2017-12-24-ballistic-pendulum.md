@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ballistic Pendulum"
-date:   2017-09-17 00:00:00 -0000
+date:   2017-12-24 00:00:00 -0000
 categories: chess
 ---
 
