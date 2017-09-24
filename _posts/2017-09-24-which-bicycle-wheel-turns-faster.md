@@ -5,12 +5,11 @@ date:   2017-09-24 00:00:00 -0000
 categories: physics
 ---
 
-![kdpv]({{ site.url }}/images/kdpv.jpg)
+![Bicycle tracks]({{ site.url }}/images/bike_tracks.jpg)
 
-Teaser.
-
+Which bicycle wheel makes more turns over a given path &mdash; front or rear? Assume both wheels have the same diameter.
 <!--more-->
 
-Contents
+On a track with any turns, the path of the front wheel is slightly longer, so it turns slightly faster.
 
-Source: rumor
+Imagine the edge case where the front wheel is turned 90&deg; relative to the rear wheel, in which case the rear wheel does not travel at all, while the front wheel is making circles around it.

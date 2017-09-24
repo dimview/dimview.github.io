@@ -16,7 +16,7 @@ When helicopter is flying normally, rotor blades form a shallow cone. If you wer
 
 ![Rotor cone]({{ site.url }}/images/cone.jpg){:height="50%" width="50%"}
 
-Rotor blades are flexible and support the weight of the helicopter only because the centrifugal force is pulling them apart. You can think of the helicopter as a piece of clothes hanging on the clothesline. No matter how tight the clothesline is, it's never going to be completely straight.
+Rotor blades are flexible and support the weight of the helicopter only because the centrifugal force is pulling them apart. You can think of the helicopter as hanging on the clothesline. No matter how tight the clothesline is, it's never going to be completely straight.
 
 The second hint is that the blades in the picure are feathered (their pitch is close to zero). The rotor is not generating any lift, as if the helicopter is on the ground:
 
