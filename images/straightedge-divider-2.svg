@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="300" height="256" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="20,1 20,254" stroke-width="3" stroke="black" fill="none"/>
+  <polyline points="180,71 180,129" stroke-width="3" stroke="black" fill="none"/>
+  <polyline points="20,210 295,99 20,169" stroke-width="3" stroke="green" fill="none"/>
+  <polyline points="20,79 295,99 20,124" stroke-width="3" stroke="green" fill="none"/>
+  <polyline points="20,34 295,99" stroke-width="3" stroke="blue" fill="none"/>
+ </svg>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "EDC in the Forest"
-date:   2017-11-19 00:00:00 -0000
-categories: chess
+title: "Pythagorean Theorem"
+date:   2017-11-05 00:00:00 -0000
+categories: math
 ---
 
 ![kdpv]({{ site.url }}/images/kdpv.jpg)

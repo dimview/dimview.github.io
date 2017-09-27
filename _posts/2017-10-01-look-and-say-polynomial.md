@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Look and Say Polynomial"
-date:   2017-10-05 00:00:00 -0000
+date:   2017-10-01 00:00:00 -0000
 categories: math
 ---
 
@@ -20,7 +20,7 @@ Each next number is about 30% longer. More precisely, if $$L_i$$ denotes the num
 
 $$\lim_{n\rightarrow\infty}\frac{L_{n+1}}{L_n} = \lambda \approx 1.303577$$
 
-One can enumerate 92 possible subsequences, construct a transition matrix, interpret it is a 
+One can enumerate 92 possible subsequences, construct a transition matrix, interpret it as a 
 recurrence relation for the length of terms in the look-and-say sequence, recall that limiting 
 ratio of terms in the sequence is equal to the spectral radius of the transition matrix,
 and finally find $$\lambda$$, the only positive rational root of [Conway's polynomial](https://oeis.org/A137275)

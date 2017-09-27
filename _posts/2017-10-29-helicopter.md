@@ -10,7 +10,7 @@ categories: engineering
 What's wrong with this picture?
 <!--more-->
 
-It's upside down. You can tell by looking at the rotor blades.
+The picture is **upside down**. It was taken when the helicopter was near the apex of a loop. You can tell not only by the sun reflection on the bottom, but also by the angle of the rotor blades.
 
 When helicopter is flying normally, rotor blades form a shallow cone. If you were to draw a straight line from the tip of one blade to the tip of the opposite blade, this line would pass above the rotor hub:
 
@@ -22,6 +22,7 @@ The second hint is that the blades in the picure are feathered (their pitch is c
 
 ![R22 idling on the ground]({{ site.url }}/images/r22_idle.jpg){:height="50%" width="50%"}
 
-The picture was taken when the helicopter was near the apex of a loop. Normally it looks like this:
+Normally it looks like this:
 
 ![MBB]({{ site.url }}/images/mbb_answer.jpg){:height="50%" width="50%"}
+
