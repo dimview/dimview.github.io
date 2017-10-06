@@ -9,4 +9,4 @@ A rare textbook: [No BS Guide to Math and Physics](https://minireference.com/) b
 
 Unlike most modern textbooks, this one has very high signal to noise ratio - lots of useful content packed into few pages. Highly recommended.
 
-Example: [mechanics in 7 pages PDF document](https://minireference.com/static/tutorials/mech_in_7_pages.pdf)
+Example: [mechanics in 7 pages](https://minireference.com/static/tutorials/mech_in_7_pages.pdf) (link goes to PDF)
