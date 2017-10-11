@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dividing with Straightedge"
-date:   2017-12-10 00:00:00 -0000
+date:   2017-10-29 00:00:00 -0000
 categories: math
 ---
 

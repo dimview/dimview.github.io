@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Phone Apps"
-date:   2017-10-29 00:00:00 -0000
-categories: lifehacks
+title: "Pocket Dump"
+date:   2017-12-17 00:00:00 -0000
+categories: chess
 ---
 
 ![kdpv]({{ site.url }}/images/kdpv.jpg)
