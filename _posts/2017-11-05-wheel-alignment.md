@@ -13,7 +13,7 @@ Are front wheels of a turning car parallel?
 
 No. In order for a wheel not to slip it has to turn around a point somewhere along its axis. To see why, imagine a cone rolling on the table.
 
-Axes of front wheels during the turn (green lines) intersect, therefore front wheels are not parallel.
+Axes of front wheels (green lines) intersect, therefore front wheels are not parallel.
 
 ![Wheel alignment answer]({{ site.url }}/images/wheel-alignment-answer.jpg){:width="100%"}
 
