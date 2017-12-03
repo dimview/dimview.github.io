@@ -9,7 +9,7 @@ categories: math
 
 Point D lies inside an arbitrary triangle ABC. Prove that &#124;AB&#124;+&#124;BC&#124;>&#124;AD&#124;+&#124;DC&#124;.
 
-Zbigniew Michalewicz and David B. Fogel found this problem in a math text for fifth graders in the United States and gave it to many people, including undergraduate and graduate students and even full professors in matematics, engineering, or computer science.
+Zbigniew Michalewicz and David B. Fogel found this problem in a math text for fifth graders in the United States and gave it to many people, including undergraduate and graduate students and even full professors in mathematics, engineering, or computer science.
 
 Fewer than 5% of those people solved it within an hour. 
 
