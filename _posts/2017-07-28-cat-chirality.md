@@ -113,4 +113,4 @@ This is how my test chart looks like today (July 28th, 2017):
 
 More data is required.
 
-**Update:** [Experiment results]({{ site.url }}/math/2017/10/15/cat-chirality.html) are now available. No chirality detected.
+**Update:** [Full results]({{ site.url }}/math/2017/10/15/cat-chirality.html) are now available. No chirality detected.
